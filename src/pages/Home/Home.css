@@ -31,7 +31,11 @@
     transition-duration: 1s;
 }
 .astrolegend {
-    color: #81a9e6;
+    cursor: default;
+    position: absolute;
+    top: -10vh;
+    left: 3vw;
+    color: #bb83fa;
     font-weight: 100;
     font-size: 14px;
     margin-top: 5vh;
