@@ -13,7 +13,6 @@
     background-color: #0d1117cc;
     border-radius: 20px;
 }
-
 .buttonsContatos {
     font-family: 'inter', arial;
     display: flex;
@@ -45,9 +44,6 @@
     transition-property: all;
     transition-duration: 0.4s;
 }
-
-
-
 .linkedin {
     background: transparent;
     font-size: 16px;
@@ -68,10 +64,6 @@
     transition-property: all;
     transition-duration: 0.4s;
 }
-
-
-
-
 .instagram {
     background: transparent;
     font-size: 16px;
@@ -92,10 +84,6 @@
     transition-property: all;
     transition-duration: 0.4s;
 }
-
-
-
-
 .email {
     background: transparent;
     font-size: 16px;
@@ -116,10 +104,6 @@
     transition-property: all;
     transition-duration: 0.4s;
 }
-
-
-
-
 .telefone {
     background: transparent;
     font-size: 16px;
