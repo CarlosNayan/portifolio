@@ -1,0 +1,23 @@
+.projetos {    
+    position: absolute;
+    top: 20vh;
+    left: 23vw;
+    width: 35vw;
+    height: 59vh;
+    padding: 1vh;
+}
+
+.titleProjetos {
+    color: white;
+    font-weight: 800;
+    padding: 2vh 1vw 0 1vw;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    left: -250px;
+    padding: 20px;
+}
+
+.textprojetos{
+    font-weight: 100;
+}

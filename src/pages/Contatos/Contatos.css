@@ -1,0 +1,145 @@
+.titleContatos {
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.contatos {
+    position: absolute;
+    top: 20vh;
+    left: 36vw;
+    width: 30vw;
+    height: 50vh;
+    background-color: #0d1117cc;
+    border-radius: 20px;
+}
+
+.buttonsContatos {
+    font-family: 'inter', arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 3vh 4vw;
+
+}
+.github {
+    background: transparent;
+    font-family: 'inter', arial;
+    font-size: 16px;
+    color: white;
+    width: 94px;
+    height: 35px;
+    border: none;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+.github:hover{
+    background: #000000;
+    color: white;
+    border-radius: 10px;
+    width: 26vw;
+    text-align: center;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+
+
+.linkedin {
+    background: transparent;
+    font-size: 16px;
+    color: white;
+    width: 107px;
+    height: 35px;
+    border: none;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+.linkedin:hover{
+    background: #008ecf;
+    color: white;
+    border-radius: 10px;
+    width: 26vw;
+    text-align: center;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+
+
+
+.instagram {
+    background: transparent;
+    font-size: 16px;
+    border: none;
+    color: white;
+    width: 122px;
+    height: 35px;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+.instagram:hover{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#285aeb 100%);
+    color: white;
+    border-radius: 10px;
+    width: 26vw;
+    text-align: center;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+
+
+
+.email {
+    background: transparent;
+    font-size: 16px;
+    color: white;
+    border: none;
+    width: 81px;
+    height: 35px;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+.email:hover{
+    background: #005ff9;
+    color: white;
+    border-radius: 10px;
+    width: 26vw;
+    text-align: center;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+
+
+
+.telefone {
+    background: transparent;
+    font-size: 16px;
+    color: white;
+    border: none;
+    width: 110px;
+    height: 35px;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+.telefone:hover{
+    background: #00ba00;
+    color: white;
+    border-radius: 10px;
+    width: 26vw;
+    text-align: center;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+
+

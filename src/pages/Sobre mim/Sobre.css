@@ -1,0 +1,111 @@
+.pageabout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.flexboxabout1 {
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    width: 35vw;
+    height: 59vh;
+    padding: 1vh;
+}
+.titleSobre {
+    font-weight: 800;
+    padding: 2vh 1vw 0 1vw;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+}
+.textSobre {
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    padding: 2vh 1vw;
+}
+.flexboxabout2 {
+    position: absolute;
+    top: 18vh;
+    left: 55vw;
+    width: 35vw;
+    height: 30vh;
+    display: flex;
+}
+.faculdade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0d1117cc;
+    width: 17vw;
+    height: 30vh;
+    border-radius: 10px;
+    margin-right: 1vw;
+}
+.faculdade :nth-child(1) {
+    font-weight: 800;
+    margin: 5px 18px;
+}
+.faculdade :nth-child(2) {
+    font-weight: 100;
+    font-size: 14px;
+    margin: 5px 15px;
+}
+.programação {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0d1117cc;
+    width: 17vw;
+    height: 30vh;
+    border-radius: 10px;
+}
+.programação :nth-child(1) {
+    font-weight: 800;
+    margin: 5px 18px;
+    position: relative;
+    top: -2.5vh;
+}
+.programação :nth-child(2) {
+    font-weight: 100;
+    font-size: 14px;
+    margin: 5px 15px;
+    position: relative;
+    top: -2.5vh;    
+}
+.flexboxabout3 {
+    position: absolute;
+    top: 51vh;
+    left: 55vw;
+    width: 34vw;
+    height: 30vh;
+    padding: 1vh;
+}
+.titleTec {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#boxtec {
+    position: relative;
+    top: 75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: max-content;
+}
+.tec {
+    margin: -20px;
+    width: 80px;
+    height: 80px;
+    transition-property: all;
+    transition-duration: 0.6s;
+}
+.tec:hover {
+    margin: -70px 20px;
+    width: 7vw;
+    height: 7vw;
+    transition-property: all;
+    transition-duration: 0.6s;
+}
+
