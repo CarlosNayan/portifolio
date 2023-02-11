@@ -10,22 +10,10 @@ import Contatos from './pages/Contatos/Contatos'
 import { Footer } from './components/footer/Footer'
 
 const rotas = createBrowserRouter([
-  {
-  path: "/",
-  element: <Home/>,
-  },
-  {
-      path: "/projetos",
-      element: <Projetos/>,
-  },
-  {
-      path: "/sobre",
-      element: <Sobre/>,
-  },
-  {
-      path: "/contatos",
-      element: <Contatos/>,
-  }
+  {path: "/",element: <Home/>},
+  {path: "/projetos",element: <Projetos/>},
+  {path: "/sobre",element: <Sobre/>},
+  {path: "/contatos",element: <Contatos/>}
 ]);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render( 
