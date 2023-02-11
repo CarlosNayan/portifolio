@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../../components/Navbar/Navbar'
 import './Sobre.css'
 import tec1 from '/assets/tec/1.png'
 import tec2 from '/assets/tec/2.png'
@@ -16,6 +17,7 @@ function Sobre() {
     return (
 
 <div className='pageabout'>
+  <Navbar/>
   <div className="flexboxabout1">
   <div className='titleSobre'>
     <div className='lineeffect'>

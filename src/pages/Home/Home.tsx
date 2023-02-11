@@ -1,9 +1,12 @@
 import astronauta from '/assets/astronauta.png'
+import Navbar from '../../components/Navbar/Navbar';
 import './Home.css'
 
 function Home() {
   return (
-    <div>
+    
+    <div className='pagehome'>
+      <Navbar/>
       <div className='flexboxhome1' >
         <p className='titlehome' >
           <div className='lineeffect' >

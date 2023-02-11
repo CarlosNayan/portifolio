@@ -1,10 +1,12 @@
 import './Contatos.css'
+import Navbar from '../../components/Navbar/Navbar';
 import {BsLinkedin, BsGithub, BsInstagram, BsWhatsapp} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
 
 function Contatos() {
     return (
       <div className='pagecontatos'>
+        <Navbar/>
         <div className="contatos">
           <h1 className='titleContatos'>Contatos</h1>
           <ul className='buttonsContatos'>

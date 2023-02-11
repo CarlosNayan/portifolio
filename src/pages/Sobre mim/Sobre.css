@@ -1,7 +1,7 @@
 .pageabout {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 .flexboxabout1 {
     position: absolute;
@@ -95,15 +95,13 @@
 }
 .tec {
     margin: -20px;
-    width: 80px;
-    height: 80px;
+    width: 70px;
     transition-property: all;
     transition-duration: 0.6s;
 }
 .tec:hover {
-    margin: -70px 20px;
-    width: 7vw;
-    height: 7vw;
+    margin: -35px 20px;
+    width: 120px;
     transition-property: all;
     transition-duration: 0.6s;
 }

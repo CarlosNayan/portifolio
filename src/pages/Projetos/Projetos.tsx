@@ -1,9 +1,10 @@
 import './Projetos.css'
+import Navbar from '../../components/Navbar/Navbar';
 
 function Projetos() {
     return (
       <div className="projetos">
-
+        <Navbar/>
         <div className='titleProjetos'>
           <div className='lineeffect'>
                 <div className='letters' >P</div>
