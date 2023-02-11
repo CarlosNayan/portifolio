@@ -1,5 +1,5 @@
 import './Projetos.css'
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../../components/navbar/Navbar';
 
 function Projetos() {
     return (

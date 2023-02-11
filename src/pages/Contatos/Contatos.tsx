@@ -1,5 +1,5 @@
 import './Contatos.css'
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../../components/navbar/Navbar';
 import {BsLinkedin, BsGithub, BsInstagram, BsWhatsapp} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
 

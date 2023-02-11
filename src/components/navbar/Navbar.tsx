@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import {BsFillHouseDoorFill, BsTerminalFill, BsFillInfoSquareFill, BsFillPersonLinesFill}  from 'react-icons/bs'
-import './Navbar.css'
+import './navbar.css'
 
 const Navbar = () => {
     return(

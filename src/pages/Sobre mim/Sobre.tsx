@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
+import Navbar from '../../components/navbar/Navbar'
 import './Sobre.css'
 import tec1 from '/assets/tec/1.png'
 import tec2 from '/assets/tec/2.png'
