@@ -17,7 +17,7 @@ function Sobre() {
     return (
 
 <div className='pageabout'>
-  <Navbar/>
+  <Navbar/> 
   <div className="flexboxabout1">
   <div className='titleSobre'>
     <div className='lineeffect'>

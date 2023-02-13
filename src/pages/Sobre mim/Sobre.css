@@ -106,3 +106,257 @@
     transition-duration: 0.6s;
 }
 
+
+
+/* Responsividade começa aqui 
+    Telas com no máximo 1280p
+*/
+
+
+
+@media (max-width: 1280px) {
+    .titleSobre {
+        font-weight: 800;
+        padding: 2vh 1vw 0 1vw;
+        font-size: 40px;
+        font-family: 'Inter', sans-serif;
+    }
+    .textSobre {
+        font-family: 'Inter', sans-serif;
+        font-weight: 100;
+        padding: 2vh 1vw;
+        font-size: 14px;
+    }
+    .faculdade :nth-child(1) {
+        font-weight: 800;
+        font-size: 16px;
+        margin: 5px 18px;
+    }
+    .faculdade :nth-child(2) {
+        font-weight: 100;
+        font-size: 12px;
+        margin: 5px 15px;
+    }
+    .programação :nth-child(1) {
+        font-weight: 800;
+        font-size: 16px;
+        margin: 5px 18px;
+        position: relative;
+        top: -2.5vh;
+    }
+    .programação :nth-child(2) {
+        font-weight: 100;
+        font-size: 12px;
+        margin: 5px 15px;
+        position: relative;
+        top: -2.5vh;    
+    }
+    .tec {
+        margin: -20px;
+        width: 65px;
+        transition-property: all;
+        transition-duration: 0.6s;
+    }
+    .tec:hover {
+        margin: -35px 20px;
+        width: 100px;
+        transition-property: all;
+        transition-duration: 0.6s;
+    }
+}
+
+
+/*  Telas com largura de no máximo 1080p*/
+
+
+@media (max-width: 1080px) {
+    .flexboxabout1 {
+        position: relative;
+        top: 10vh;
+        left: 10vw;
+        width: 40vw;
+        height: 59vh;
+        padding: 1vh;
+    }
+    .titleSobre {
+        font-weight: 800;
+        padding: 2vh 1vw 0 1vw;
+        font-size: 50px;
+        font-family: 'Inter', sans-serif;
+    }
+    .textSobre {
+        font-family: 'Inter', sans-serif;
+        font-weight: 100;
+        padding: 2vh 1vw;
+        font-size: 16px;
+    }
+
+    .flexboxabout2 {
+        position: relative;
+        top: 12vh;
+        left: 12vw;
+        width: 35vw;
+        height: 59vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1vh;
+    }
+    .faculdade{
+        margin: 5px;
+        width: calc(100% - 5px);
+        height: calc(50% - 5px);
+    }
+    .faculdade :nth-child(1) {
+        font-weight: 800;
+        font-size: 20px;
+        margin: 5px 18px;
+    }
+    .faculdade :nth-child(2) {
+        font-weight: 100;
+        font-size: 16px;
+        margin: 5px 15px;
+    }
+    .programação{
+        margin: 5px;
+        width: calc(100% - 5px);
+        height: calc(50% - 5px);
+    }
+    .programação :nth-child(1) {
+        font-weight: 800;
+        font-size: 20px;
+        margin: 5px 18px;
+        position: relative;
+        top: -2.5vh;
+    }
+    .programação :nth-child(2) {
+        font-weight: 100;
+        font-size: 16px;
+        margin: 5px 15px;
+        position: relative;
+        top: -2.5vh;    
+    }
+
+    .flexboxabout3 {
+        position: relative;
+        top: 10vh;
+        left: 20vw;
+        width: 60vw;
+        height: 15vh;
+        padding: 1vh;
+    }
+
+}
+
+
+/* Telas com no máximo 1024p */
+
+
+
+@media (max-width: 1024px) {
+    .flexboxabout1 {
+        position: relative;
+        top: 10vh;
+        left: 10vw;
+        width: 45vw;
+        height: 59vh;
+        padding: 1vh;
+    }
+    .flexboxabout2 {
+        position: relative;
+        top: 26vh;
+        left: 15vw;
+        width: 35vw;
+        height: 59vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1vh;
+    }
+    .flexboxabout3 {
+        position: relative;
+        top: 50vh;
+        left: 20vw;
+        width: 60vw;
+        height: 35vh;
+        padding: 1vh;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .flexboxabout2 {
+        position: relative;
+        top: 15vh;
+        left: 15vw;
+        width: 35vw;
+        height: 88vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1vh;
+    }
+    .flexboxabout3 {
+        position: relative;
+        top: 40vh;
+        left: 20vw;
+        width: 60vw;
+        height: 35vh;
+        padding: 1vh;
+    }
+}
+
+@media (max-width: 414px) {
+    .titleSobre {
+        font-weight: 800;
+        padding: 2vh 1vw 0 1vw;
+        font-size: 40px;
+        font-family: 'Inter', sans-serif;
+    }
+    .flexboxabout1 {
+        position: relative;
+        top: 10vh;
+        left: 10vw;
+        width: 80vw;
+        height: 59vh;
+        padding: 1vh;
+    }
+    .flexboxabout2 {
+        position: relative;
+        top: 55vw;
+        left: 10vw;
+        width: 80vw;
+        height: 59vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1vh;
+    }
+    .faculdade{
+        margin: 5px;
+        width: calc(100% - 5px);
+        height: calc(50% - 5px);
+
+    }
+    .programação{
+        margin: 5px;
+        width: calc(100% - 5px);
+        height: calc(50% - 5px);
+    }
+    .flexboxabout3 {
+        position: relative;
+        top: 55vw;
+        left: 10vw;
+        width: 80vw;
+        height: 35vh;
+        padding: 1vh;
+    }
+    .tec {
+        margin: -20px;
+        width: 70px;
+        transition-property: all;
+        transition-duration: 0.6s;
+    }
+    .tec:hover {
+        margin: -140px -30px;
+        width: 100px;
+        transition-property: all;
+        transition-duration: 0.6s;
+    }
+}

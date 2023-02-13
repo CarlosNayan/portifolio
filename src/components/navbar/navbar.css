@@ -3,11 +3,10 @@
     top: 0;
     left: 0;
     height: 100vh;
-    width: 3%;
+    width: 4%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background: #0f0f0f;
     align-items: center;
     justify-content: center;
     gap: 4em;
@@ -25,4 +24,23 @@
     background-color: transparent;
     transition-property: fill;
     transition-duration: 0.6s;
+}
+
+@media (max-width: 500px){
+    .navbar {
+        position: fixed;
+        top: 0;
+        background-color: #242424;
+        left: 0;
+        height: 6%;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4em;
+        z-index: 1 ;
+    }
+
 }

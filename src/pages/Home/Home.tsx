@@ -6,7 +6,7 @@ function Home() {
   return (
     
     <div className='pagehome'>
-      <Navbar/>
+     <Navbar/> 
       <div className='flexboxhome1' >
         <p className='titlehome' >
           <div className='lineeffect' >

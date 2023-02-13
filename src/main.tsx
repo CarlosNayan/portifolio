@@ -9,6 +9,7 @@ import Sobre from './pages/Sobre mim/Sobre'
 import Contatos from './pages/Contatos/Contatos'
 import { Footer } from './components/footer/Footer'
 
+
 const rotas = createBrowserRouter([
   {path: "/",element: <Home/>},
   {path: "/projetos",element: <Projetos/>},
