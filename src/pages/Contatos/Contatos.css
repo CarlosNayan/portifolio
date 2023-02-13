@@ -206,17 +206,32 @@
         height: 70vh;
         width: 70vw;
     }
+    .github{
+        font-size: 14px;
+    }
     .github:hover{
         width: 65vw;
+    }
+    .linkedin{
+        font-size: 14px;
     }
     .linkedin:hover{
         width: 65vw;
     }
+    .instagram{
+        font-size: 14px;
+    }
     .instagram:hover{
         width: 65vw;
     }
+    .telefone{
+        font-size: 14px;
+    }
     .telefone:hover{
         width: 65vw;
+    }
+    .email{
+        font-size: 14px;
     }
     .email:hover{
         width: 65vw;
