@@ -169,7 +169,7 @@
 /*  Telas com largura de no máximo 1080p*/
 
 
-@media (max-width: 1080px) {
+@media (max-width: 1280px) {
     .flexboxabout1 {
         position: relative;
         top: 10vh;
@@ -238,10 +238,10 @@
 
     .flexboxabout3 {
         position: relative;
-        top: 10vh;
+        top: 20vh;
         left: 20vw;
         width: 60vw;
-        height: 15vh;
+        height: 30vh;
         padding: 1vh;
     }
 
@@ -249,38 +249,6 @@
 
 
 /* Telas com no máximo 1024p */
-
-
-
-@media (max-width: 1024px) {
-    .flexboxabout1 {
-        position: relative;
-        top: 10vh;
-        left: 10vw;
-        width: 45vw;
-        height: 59vh;
-        padding: 1vh;
-    }
-    .flexboxabout2 {
-        position: relative;
-        top: 26vh;
-        left: 15vw;
-        width: 35vw;
-        height: 59vh;
-        display: flex;
-        flex-direction: column;
-        padding: 1vh;
-    }
-    .flexboxabout3 {
-        position: relative;
-        top: 50vh;
-        left: 20vw;
-        width: 60vw;
-        height: 35vh;
-        padding: 1vh;
-    }
-
-}
 
 @media (max-width: 1024px) {
     .flexboxabout2 {
@@ -303,6 +271,126 @@
     }
 }
 
+@media (max-width: 912px) {
+    .flexboxabout1 {
+        position: relative;
+        top: 10vh;
+        left: 10vw;
+        width: 40vw;
+        height: 59vh;
+        padding: 1vh;
+    }
+    .flexboxabout2 {
+        position: relative;
+        top: calc(10vh +20px);
+        left: 10vw;
+        width: 40vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1vh;
+    }
+    .flexboxabout3 {
+        position: relative;
+        top: 10vw;
+        left: 10vw;
+        width: 80vw;
+        height: 30vh;
+        padding: 1vh;
+    }
+    
+}
+
+@media (max-width: 820px) {
+    .titleSobre {
+        font-weight: 800;
+        padding: 2vh 1vw 0 1vw;
+        font-size: 40px;
+        font-family: 'Inter', sans-serif;
+    }
+    .flexboxabout1 {
+        position: relative;
+        top: 10vh;
+        left: 10vw;
+        width: 40vw;
+        height: 59vh;
+        padding: 1vh;
+    }
+    .flexboxabout2 {
+        position: relative;
+        top: calc(10vh + 150px);
+        left: 10vw;
+        width: 40vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1vh;
+    }
+    .flexboxabout3 {
+        position: relative;
+        top: 15vh;
+        left: 10vw;
+        width: 80vw;
+        height: 35vh;
+        padding: 1vh;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .flexboxabout1 {
+        position: relative;
+        top: 10vh;
+        width: 40vw;
+        height: 59vh;
+        padding: 1vh;
+    }
+    .flexboxabout2 {
+        position: relative;
+        top: calc(10vh + 150px);
+        width: 40vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1vh;
+    }
+    .flexboxabout3 {
+        position: relative;
+        top: 25vh;
+        width: 80vw;
+        height: 25vh;
+        padding: 1vh;
+    }
+    
+}
+
+@media (max-width: 540px) {
+    .flexboxabout1 {
+        position: relative;
+        top: 10vh;
+        width: 80%;
+        height: 59vh;
+        padding: 1vh;
+    }
+    .flexboxabout2 {
+        position: relative;
+        top: 35vh;
+        width: calc(80% - 5px);
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1vh;
+    }
+    .flexboxabout3 {
+        position: relative;
+        top: 35vh;
+        width: 80%;
+        height: 30vh;
+        padding: 1vh;
+    }
+    
+}
+
 @media (max-width: 414px) {
     .titleSobre {
         font-weight: 800;
@@ -322,7 +410,7 @@
         position: relative;
         top: 55vw;
         left: 10vw;
-        width: 80vw;
+        width: calc(80% - 5px);
         height: 59vh;
         display: flex;
         flex-direction: column;
@@ -350,6 +438,72 @@
     .tec {
         margin: -20px;
         width: 70px;
+        transition-property: all;
+        transition-duration: 0.6s;
+    }
+    .tec:hover {
+        margin: -140px -30px;
+        width: 100px;
+        transition-property: all;
+        transition-duration: 0.6s;
+    }
+}
+
+
+@media (max-width: 393px) {
+    .flexboxabout1 {
+        position: relative;
+        top: 10vh;
+        width: 80%;
+        height: 59vh;
+        padding: 1vh;
+    }
+    .flexboxabout2 {
+        position: relative;
+        top: 70vw;
+        width: calc(80% - 5px);
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1vh;
+    }
+    .flexboxabout3 {
+        position: relative;
+        top: 70vw;
+        width: 80%;
+        height: 35vh;
+        padding: 1vh;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    .flexboxabout1 {
+        position: relative;
+        top: 10vh;
+        width: 80%;
+        height: 59vh;
+        padding: 1vh;
+    }
+    .flexboxabout2 {
+        position: relative;
+        top: 105vw;
+        width: calc(80% - 5px);
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        padding: 1vh;
+    }
+    .flexboxabout3 {
+        position: relative;
+        top: 110vw;
+        width: 80%;
+        height: 35vh;
+        padding: 1vh;
+    }
+    .tec {
+        margin: -20px;
+        width: 65px;
         transition-property: all;
         transition-duration: 0.6s;
     }
