@@ -1,10 +1,4 @@
-.titleContatos {
-    font-family: 'Inter', sans-serif;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-}
-.contatos {
+.flexboxcontatos {
     position: absolute;
     top: 20vh;
     left: 36vw;
@@ -12,6 +6,12 @@
     height: 50vh;
     background-color: #0f0f0fcc;
     border-radius: 20px;
+}
+.titleContatos {
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 .buttonsContatos {
     font-family: 'inter', arial;
@@ -125,5 +125,114 @@
     transition-duration: 0.4s;
 }
 
+@media (max-width: 1280px){
+    .flexboxcontatos{
+        height: 55vh;
+    }
+}
 
+@media (max-width: 1024px){
+    .flexboxcontatos{
+        top: 15vh;
+        height: 70vh;
+    }
+}
 
+@media (max-width: 912px){
+    .flexboxcontatos{
+        top: 25vh;
+        left: 25vw;
+        height: 50vh;
+        width: 50vw;
+    }
+    .buttonsContatos{
+        padding: 7vh 4vw;
+    }
+    .github{
+        font-size: 20px;
+        width: 103px;
+    }
+    .github:hover{
+        width: 45vw;
+    }
+    .linkedin{
+        font-size: 20px;
+        width: 118px;
+        margin-top: 5px;
+
+    }
+    .linkedin:hover{
+        width: 45vw;
+    }
+    .instagram{
+        font-size: 20px;
+        width: 134px;
+        margin-top: 5px;
+
+    }
+    .instagram:hover{
+        width: 45vw;
+    }
+    .telefone{
+        font-size: 20px;
+        width: 135px;
+        margin-top: 5px;
+
+    }
+    .telefone:hover{
+        width: 45vw;
+    }
+    .email{
+        font-size: 20px;
+        width: 89px;
+        margin-top: 5px;
+
+    }
+    .email:hover{
+        width: 45vw;
+    }
+}
+
+@media (max-width: 768px){
+    .buttonsContatos{
+        padding: 5vh 4vw;
+    }
+}
+
+@media (max-width: 540px){
+    .flexboxcontatos{
+        top: 15vh;
+        left: 15vw;
+        height: 70vh;
+        width: 70vw;
+    }
+    .github:hover{
+        width: 65vw;
+    }
+    .linkedin:hover{
+        width: 65vw;
+    }
+    .instagram:hover{
+        width: 65vw;
+    }
+    .telefone:hover{
+        width: 65vw;
+    }
+    .email:hover{
+        width: 65vw;
+    }
+}
+
+@media (max-width: 414px){
+    .flexboxcontatos{
+        top: 20vh;
+        height: 60vh;
+    }
+}
+
+@media (max-width:375px){
+    .flexboxcontatos{
+        top: 15vh;
+        height: 70vh;
+    }
+}

@@ -7,7 +7,7 @@ function Contatos() {
     return (
       <div className='pagecontatos'>
         <Navbar/>
-        <div className="contatos">
+        <div className="flexboxcontatos">
           <h1 className='titleContatos'>Contatos</h1>
           <ul className='buttonsContatos'>
             <a  href="https://github.com/CarlosNayan" target="_blank"><button className='github'> <BsGithub/>  Github</button></a>
