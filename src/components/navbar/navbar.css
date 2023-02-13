@@ -28,18 +28,7 @@
 
 @media (max-width: 1024px){
     .navbar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
         width: 6%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 4em;
-        padding: 0 3px;
     }
 }
 
@@ -51,7 +40,7 @@
         background-color: #242424;
         left: 0;
         height: 6%;
-        width: 100vw;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;

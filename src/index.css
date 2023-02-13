@@ -18,6 +18,8 @@ body {
   display: flex;
   cursor: default;
   transition: all 1s;
+  display: flex;
+  flex-wrap: wrap;
 }
 .letters{
   color: white;
