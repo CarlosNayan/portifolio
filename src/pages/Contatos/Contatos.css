@@ -125,6 +125,12 @@
     transition-duration: 0.4s;
 }
 
+@media (max-width: 1366px) {
+    .flexboxcontatos{
+        height: 55vh;
+    }
+}
+
 @media (max-width: 1280px){
     .flexboxcontatos{
         height: 55vh;

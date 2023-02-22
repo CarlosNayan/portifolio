@@ -6,7 +6,7 @@
 .flexboxabout1 {
     position: absolute;
     top: 20vh;
-    left: 10vw;
+    left: 8vw;
     width: 35vw;
     height: 59vh;
     padding: 1vh;
@@ -25,7 +25,7 @@
 .flexboxabout2 {
     position: absolute;
     top: 18vh;
-    left: 55vw;
+    left: 53vw;
     width: 35vw;
     height: 30vh;
     display: flex;
@@ -74,7 +74,7 @@
 .flexboxabout3 {
     position: absolute;
     top: 51vh;
-    left: 55vw;
+    left: 53vw;
     width: 34vw;
     height: 30vh;
     padding: 1vh;
