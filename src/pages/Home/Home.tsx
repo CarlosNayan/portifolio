@@ -54,7 +54,6 @@ function Home() {
 
       <div className='flexboxhome2'>
         <img src={astronauta} alt="" className='astronauta' />
-        <p className='astrolegend'>passe o mouse na imagem</p>
       </div>
     </div>
   );
