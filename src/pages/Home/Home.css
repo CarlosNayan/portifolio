@@ -112,12 +112,10 @@
 
 @media (max-width: 540px){
     .flexboxhome1{
-        left: 11vw;
+        left: 2vw;
         width: 83vw;
     }
-    .titlehome{
-        font-size: 40px;
-    }
+
     .flexboxhome2{
         height: 60vh;
     }
@@ -127,6 +125,9 @@
     .flexboxhome1{
         top: 13vh;
         width: 77vw;
+    }
+    .titlehome{
+        font-size: 38px;
     }
     .flexboxhome2{
         left: 25vw;

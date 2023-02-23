@@ -25,7 +25,7 @@ body {
 }
 .letters:hover {
   color:#7f11fd;
-  transition: all 0.3s;
+  transition: all 0.15s;
   cursor: default;
 }
 
