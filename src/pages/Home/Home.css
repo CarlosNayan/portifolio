@@ -26,6 +26,10 @@
     width: 15vw;
     transition-property: all;
     transition-duration: 3s;
+    animation-name: shake-vertical;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 .astronauta:hover{
     filter: drop-shadow(0 1em 3em #7f11fd);
@@ -43,6 +47,35 @@
     margin-top: 5vh;
 
 }
+
+@keyframes shake-vertical {
+    0%,
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateY(8px);
+              transform: translateY(8px);
+    }
+    80% {
+      -webkit-transform: translateY(6.4px);
+              transform: translateY(6.4px);
+    }
+    90% {
+      -webkit-transform: translateY(-6.4px);
+              transform: translateY(-6.4px);
+    }
+  }
 
 @media (max-width: 1280px){
     .flexboxhome1{
@@ -111,6 +144,9 @@
 }
 
 @media (max-width: 540px){
+    .titlehome {
+        font-size: 50px;
+    }
     .flexboxhome1{
         left: 2vw;
         width: 83vw;
@@ -127,7 +163,7 @@
         width: 77vw;
     }
     .titlehome{
-        font-size: 38px;
+        font-size: 37px;
     }
     .flexboxhome2{
         left: 25vw;
@@ -147,6 +183,7 @@
     }
     .flexboxhome2{
         top: 13vh;
+        height: 70vh;
     }
     
 }

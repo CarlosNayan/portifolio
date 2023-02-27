@@ -1,9 +1,11 @@
 .navbar {
+    background-color: rgb(36, 36, 36, 0.3);
     position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 4%;
+    border-radius: 100px;
+    top: 25vh;
+    left: 15px;
+    height: 45vh;
+    width: 2.5%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -19,28 +21,71 @@
 }
 .nav-icon{
     color: white;
-    height: 32px;
-    width: 32px;
+    height: 25px;
+    width: 25px;
     background-color: transparent;
     transition-property: fill;
     transition-duration: 0.6s;
 }
 
-@media (max-width: 1024px){
-    .navbar {
-        width: 6%;
+
+@media (max-width: 1366px){
+    .nav-icon{
+        height: 23px;
+        width: 23px;
     }
 }
 
-@media (max-width: 540px){
+
+@media (max-width: 1024px){
     .navbar {
-        font-size: 0;
+        width: 3%;
+        height: 60vh;
+    }
+    .navbar {
+        top: 20vh;
+    }
+}
+
+@media (max-width:912px) {
+    .navbar {
+        height: 30vh;
+        width: 4%;
+    }
+
+    .navbar {
+        top: 30vh;
+    }
+    
+}
+
+@media (max-width:820px) {
+    .navbar {
+        top: 35vh;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .navbar {
+        height: 40vh;
+    }
+
+    .navbar {
+        top: 30vh;
+    }
+    
+}
+
+@media (max-width: 540px){
+    .navbar{
         position: fixed;
         top: -1px;
         background-color: #242424;
         left: 0;
         height: 6%;
         width: 100%;
+        border-radius: 0;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -48,7 +93,7 @@
     }
     .nav-icon{
         color: white;
-        height: 25px;
-        width: 25px;
+        height: 20px;
+        width: 20px;
     }
 }
