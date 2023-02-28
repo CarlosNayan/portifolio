@@ -1,20 +1,9 @@
 import astronauta from '/assets/astronauta.png'
 import Navbar from '../../components/navbar/Navbar';
-import Typed from 'typed.js';
+import Typewriter from 'typewriter-effect';
 import './Home.css'
 
 
-
-/*var options = {
-  strings: ['Front End ReactJS Developer.'],
-  typeSpeed: 150,
-  backSpeed: 150,
-  loop: true,
-  startDelay: 1000,
-  backDelay: 2000
-};
-
-var typed = new Typed('.typed', options);*/
 
 function Home() {
   return (    
@@ -63,7 +52,14 @@ function Home() {
             <div className='letters' >.</div>
           </div>
           </p>
-        <p className='texthome'>I'm <span className='typed'></span> </p>
+        <p className='texthome'>I'm 
+        <Typewriter 
+        options={{
+          strings: ['Front-end React developer.'],
+          autoStart: true,
+          loop: true,
+        }}/> 
+        </p>
       </div>
 
       <div className='flexboxhome2'>
