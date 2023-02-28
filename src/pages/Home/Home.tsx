@@ -5,7 +5,7 @@ import './Home.css'
 
 
 
-var options = {
+/*var options = {
   strings: ['Front End ReactJS Developer.'],
   typeSpeed: 150,
   backSpeed: 150,
@@ -14,7 +14,7 @@ var options = {
   backDelay: 2000
 };
 
-var typed = new Typed('.typed', options);
+var typed = new Typed('.typed', options);*/
 
 function Home() {
   return (    
