@@ -34,23 +34,17 @@
 
 @media (max-width: 540px){
     .footer {
-        height: 4%;
+        height: 4.5%;
     }
     .footertext{
         font-size: 9px;
     } 
 
 }
-@media (max-width: 414px){
-    .footer {
-        height: 4%;
-    }
-
-}
 
 @media (max-width: 375px){
     .footer {
-        height: 4.5%;
+        height: 5%;
     }
 
 }
