@@ -55,7 +55,7 @@ function Home() {
         <p className='texthome'>I'm 
         <Typewriter 
         options={{
-          strings: ['Front-end React developer.'],
+          strings: ['Front-end React developer.', 'Back-end Node.js developer.'],
           autoStart: true,
           loop: true,
         }}/> 
