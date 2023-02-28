@@ -1,11 +1,25 @@
 import astronauta from '/assets/astronauta.png'
 import Navbar from '../../components/navbar/Navbar';
+import Typed from 'typed.js';
 import './Home.css'
 
+
+
+var options = {
+  strings: ['Front End ReactJS Developer.'],
+  typeSpeed: 150,
+  backSpeed: 150,
+  loop: true,
+  startDelay: 1000,
+  backDelay: 2000
+};
+
+var typed = new Typed('.typed', options);
+
 function Home() {
-  return (
-    
+  return (    
     <div className='pagehome'>
+
      <Navbar/> 
       <div className='flexboxhome1' >
         <p className='titlehome' >
@@ -49,12 +63,13 @@ function Home() {
             <div className='letters' >.</div>
           </div>
           </p>
-        <p className='texthome'>Front End ReactJS Developer </p>
+        <p className='texthome'>I'm <span className='typed'></span> </p>
       </div>
 
       <div className='flexboxhome2'>
         <img src={astronauta} alt="" className='astronauta' />
       </div>
+        
     </div>
   );
 }

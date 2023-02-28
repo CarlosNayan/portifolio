@@ -15,7 +15,7 @@
     padding: 0 3px;
 }
 .nav :hover{
-    fill: #8114fd;
+    fill: #8217fd;
     transition-property: fill;
     transition-duration: 0.6s;
 }

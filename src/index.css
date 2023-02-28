@@ -30,7 +30,6 @@ body {
   animation-name: jello-vertical;
   animation-duration: 2s;
 }
-
 .page {
   background-repeat: repeat;
   background-size: 400px;
